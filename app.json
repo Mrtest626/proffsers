@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Ashik231/Imdb-NGC",
-    "repository": "https://github.com/Ashik231/Imdb-NGC",
+    "website": "https://github.com/Mrtest626/proffsers",
+    "repository": "https://github.com/Mrtest626/proffsers",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token. Get from @BotFather.",
