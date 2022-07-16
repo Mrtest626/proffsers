@@ -162,7 +162,7 @@ async def advantage_spoll_choker(bot, query):
         k = (movie, files, offset, total_results)
         await auto_filter(bot, query, k)
     else:
-        k = await query.message.edit(f'⚠️ 𝘏𝘦𝘪, {query.from_user.first_name}! ഈ മൂവി എന്റെ ഡാറ്റാബേസിൽ ഇല്ല 𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘏𝘪𝘮▷@Unavailable4allTime')
+        k = await query.message.edit(f'⚠️ 𝘏𝘦𝘪, {query.from_user.first_name}! ഈ മൂവി എന്റെ ഡാറ്റാബേസിൽ ഇല്ല 𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘏𝘪𝘮●@Anonymousbro36')
         await asyncio.sleep(10)
         await k.delete()
     
@@ -438,15 +438,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™', url=f'https://t.me/newgen_cinemazzz')
+            InlineKeyboardButton('𝙉ew movies™', url=f'https://t.me/MalyalammoviesTeam')
             ],[
             InlineKeyboardButton('✆𝘏𝘦𝘭𝘱✆', callback_data='help'),
             InlineKeyboardButton('✉𝘈𝘣𝘰𝘶𝘵✉', callback_data='about')
             ],[
             InlineKeyboardButton('⎋𝘚𝘦𝘢𝘳𝘤𝘩 𝘔𝘰𝘷𝘪𝘦𝘴⎋', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⌖𝘖𝘸𝘯𝘦𝘳⌖', url='https://t.me/Unavailable4allTime'),
-            InlineKeyboardButton('⇚𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴⇛', url='https://t.me/Team_NGC')
+            InlineKeyboardButton('⌖𝘖𝘸𝘯𝘦𝘳⌖', url='https://t.me/Anonymousbro36'),
+            InlineKeyboardButton('⇚𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴⇛', url='https://t.me/+g8H_W9Y6FB1iYzg1')
             ],[
             InlineKeyboardButton('✄𝘊𝘭𝘰𝘴𝘦 𝘛𝘩𝘪𝘴 𝘔𝘦𝘯𝘶✄', callback_data='close_data')
         ]]
@@ -875,7 +875,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎬 Title:</b> {search}\n\n<b>👥 Requested by: {message.from_user.mention}</b>\n<b><a href='https://t.me/Unavailable4allTime'>©𝘖𝘸𝘯𝘦𝘳</a></b>\n\n<b>✐</b> <s>𝘚𝘩𝘢𝘳𝘪𝘯𝘨 𝘖𝘧 𝘛𝘩𝘪𝘴 𝘎𝘳𝘰𝘶𝘱 𝘞𝘪𝘵𝘩 𝘠𝘰𝘶𝘳 𝘍𝘳𝘪𝘦𝘯𝘥𝘴 𝘞𝘰𝘶𝘭𝘥 𝘉𝘦 𝘈𝘸𝘦𝘴𝘰𝘮𝘦♡...</s>"
+        cap = f"<b>🎬 Title:</b> {search}\n\n<b>👥 Requested by: {message.from_user.mention}</b>\n<b><a href='https://t.me/Anonymousbro36'>©𝘖𝘸𝘯𝘦𝘳</a></b>\n\n<b>✐</b> <s>𝘚𝘩𝘢𝘳𝘪𝘯𝘨 𝘖𝘧 𝘛𝘩𝘪𝘴 𝘎𝘳𝘰𝘶𝘱 𝘞𝘪𝘵𝘩 𝘠𝘰𝘶𝘳 𝘍𝘳𝘪𝘦𝘯𝘥𝘴 𝘞𝘰𝘶𝘭𝘥 𝘉𝘦 𝘈𝘸𝘦𝘴𝘰𝘮𝘦♡...</s>"
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
