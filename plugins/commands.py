@@ -18,7 +18,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('⇚𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴⇛', url='https://t.me/Team_NGC')
+                InlineKeyboardButton('⇚𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴⇛', url='https://t.me/+g8H_W9Y6FB1iYzg1')
             ],
             [
                 InlineKeyboardButton('✆𝘏𝘦𝘭𝘱✆', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -38,15 +38,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™', url=f'https://t.me/newgen_cinemazzz')
+            InlineKeyboardButton('𝙉𝙀𝙒 movies™', url=f'https://t.me/MalyalammoviesTeam')
             ],[
             InlineKeyboardButton('✆𝘏𝘦𝘭𝘱✆', callback_data='help'),
             InlineKeyboardButton('✉𝘈𝘣𝘰𝘶𝘵✉', callback_data='about')
             ],[
             InlineKeyboardButton('⎋𝘚𝘦𝘢𝘳𝘤𝘩 𝘔𝘰𝘷𝘪𝘦𝘴⎋', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⌖𝘖𝘸𝘯𝘦𝘳⌖', url='https://t.me/Unavailable4allTime'),
-            InlineKeyboardButton('⇚𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴⇛', url='https://t.me/Team_NGC')
+            InlineKeyboardButton('⌖𝘖𝘸𝘯𝘦𝘳⌖', url='https://t.me/Anonymousbro36'),
+            InlineKeyboardButton('⇚𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴⇛', url='https://t.me/+g8H_W9Y6FB1iYzg1')
             ],[
             InlineKeyboardButton('✄𝘊𝘭𝘰𝘴𝘦 𝘛𝘩𝘪𝘴 𝘔𝘦𝘯𝘶✄', callback_data='close_data')
         ]]
@@ -85,15 +85,15 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™', url=f'https://t.me/newgen_cinemazzz')
+            InlineKeyboardButton('𝙉𝙀𝙒 movies™', url=f'https://t.me/MalyalammoviesTeam')
             ],[
             InlineKeyboardButton('✆𝘏𝘦𝘭𝘱✆', callback_data='help'),
             InlineKeyboardButton('✉𝘈𝘣𝘰𝘶𝘵✉', callback_data='about')
             ],[
             InlineKeyboardButton('⎋𝘚𝘦𝘢𝘳𝘤𝘩 𝘔𝘰𝘷𝘪𝘦𝘴⎋', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('⌖𝘖𝘸𝘯𝘦𝘳⌖', url='https://t.me/Unavailable4allTime'),
-            InlineKeyboardButton('⇚𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴⇛', url='https://t.me/Team_NGC')
+            InlineKeyboardButton('⌖𝘖𝘸𝘯𝘦𝘳⌖', url='https://t.me/Anonymousbro36'),
+            InlineKeyboardButton('⇚𝘕𝘦𝘸 𝘔𝘰𝘷𝘪𝘦𝘴⇛', url='https://t.me/+g8H_W9Y6FB1iYzg1')
             ],[
             InlineKeyboardButton('✄𝘊𝘭𝘰𝘴𝘦 𝘛𝘩𝘪𝘴 𝘔𝘦𝘯𝘶✄', callback_data='close_data')
         ]]
