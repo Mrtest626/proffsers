@@ -3,7 +3,7 @@ class Script(object):
 
 𝘔𝘺 𝘖𝘧𝘧𝘪𝘤𝘪𝘢𝘭 𝘕𝘢𝘮𝘦 𝘪𝘴 <a href=https://t.me/{}>{}</a>!
 
-<b>𝘐 𝘤𝘢𝘯 𝘎𝘪𝘷𝘦 𝘠𝘰𝘶 𝘔𝘰𝘷𝘪e𝘴, 𝘈𝘯𝘥 𝘐𝘢𝘮 𝘔𝘢𝘥𝘦 𝘧𝘰𝘳 @newgen_cinemazzz
+<b>𝘐 𝘤𝘢𝘯 𝘎𝘪𝘷𝘦 𝘠𝘰𝘶 𝘔𝘰𝘷𝘪e𝘴, 𝘈𝘯𝘥 𝘐𝘢𝘮 𝘔𝘢𝘥𝘦 𝘧𝘰𝘳 @MalyalammoviesTeam
 
 ⇚𝘠𝘰𝘶 𝘊𝘢𝘯 𝘈𝘥𝘥 𝘮𝘦 𝘖𝘯 𝘠𝘰𝘶𝘳 𝘎𝘳𝘰𝘶𝘱, 𝘐𝘵𝘴 𝘕𝘰𝘵 𝘢 𝘗𝘳𝘰𝘣𝘭𝘦𝘮, 𝘢𝘥𝘥 𝘮𝘦 𝘢𝘴 𝘈𝘥𝘮𝘪𝘯 𝘢𝘯𝘥 𝘐 𝘸𝘪𝘭𝘭 𝘗𝘳𝘰𝘷𝘪𝘥𝘦 𝘔𝘰𝘷𝘪𝘦𝘴⇛</b>"""
 
@@ -25,10 +25,10 @@ class Script(object):
 𝘚𝘰𝘶𝘳𝘤𝘦⇢ <a href='https://telegra.ph/file/e3f71c7bc1eddecbe41ee.jpg'>𝘎𝘪𝘵-𝘏𝘶𝘣 𝘚𝘰𝘶𝘳𝘤𝘦 𝘊𝘰𝘥𝘦</a>
 
 <b>𝘖𝘸𝘯𝘦𝘳⇩</b>
-- <a href='https://t.me/Unavailable4allTime'>𝘈𝘴𝘩𝘪𝘬 𝘔𝘩𝘥</a>
+- <a href='https://t.me/Anonymousbro36'>𝘈noop</a>
 
 <b>𝘔𝘢𝘪𝘯 𝘎𝘳𝘰𝘶𝘱⇩</b>
-- <a href='https://t.me/newgen_cinemazzz'>𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™</a>"""
+- <a href='https://t.me/MalyalammoviesTeam'>𝙉𝙀𝙒 movies™</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -55,7 +55,7 @@ class Script(object):
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Unavailable4allTime)</code>
+<code>[Button Text](buttonurl:https://t.me/Anonymousbro36)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -251,7 +251,7 @@ Some URLs is Shortner
 • /short <code>(link)</code> - I will send the shorted links.
 
 <b>Example:</b>
-<code>/short https://t.me/Unavailable4allTime</code>
+<code>/short https://t.me/Anonymousbro36</code>
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
